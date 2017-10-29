@@ -50,7 +50,7 @@ const Idle = ReactIdle.default
 How?
 ----
 
-```render-babel
+```jsx
 // import { Idle } from 'react-idle'
 const { default: Idle } = ReactIdle
 
@@ -76,7 +76,7 @@ Props
 
 Whatever you'd like to render in response to changes in user activity.
 
-```render-babel
+```jsx
 // import { Idle } from 'react-idle'
 const { default: Idle } = ReactIdle
 
@@ -96,7 +96,7 @@ ReactDOM.render((
 
 How long before notifying that the user is idle in milliseconds.
 
-```render-babel
+```jsx
 // import { Idle } from 'react-idle'
 const { default: Idle } = ReactIdle
 
@@ -119,7 +119,7 @@ ReactDOM.render((
 
 Called whenever the user's activity state changes, a great time to change the owner component's state, or to kick off some imperative work like pre-fetching code-split bundles or images.
 
-```render-babel
+```jsx
 // import { Idle } from 'react-idle'
 const { default: Idle } = ReactIdle
 
