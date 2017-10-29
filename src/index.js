@@ -25,6 +25,7 @@ export default class Idle extends Component {
 
   componentWillUnmount() {
     this.removeEvents()
+    clearTimeout(this.timeout);
   }
 
   componentDidUpdate(prevProps) {
